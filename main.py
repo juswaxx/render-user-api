@@ -11,9 +11,9 @@ class User(BaseModel):
 
 # Sample data - replace with your actual data source
 users_db = [
-    User(LastName="Doe", FirstName="John", Email="john.doe@example.com", Password="securepass123"),
-    User(LastName="Smith", FirstName="Jane", Email="jane.smith@example.com", Password="mypassword456"),
-    User(LastName="Johnson", FirstName="Bob", Email="bob.johnson@example.com", Password="bobsecure789"),
+    User(LastName="Anasco", FirstName="Joshua", Email="joshua.anasco@example.com", Password="tes123"),
+    User(LastName="Snowman", FirstName="build", Email="build.snowman@example.com", Password="test456"),
+    User(LastName="Dancer", FirstName="Bria", Email="bria.dancer@example.com", Password="test789"),
 ]
 
 @app.get("/users")
