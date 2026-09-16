@@ -16,7 +16,7 @@ users_db = [
     User(LastName="Dancer", FirstName="Bria", Email="bria.dancer@example.com", Password="test789"),
 ]
 
-@app.get("/users")
+@app.get("/")
 def get_users():
     """Return the list of users."""
     return users_db
